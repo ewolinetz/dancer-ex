@@ -11,4 +11,6 @@ get '/' => sub {
     template default => {};
 };
 
+load 'health_routes.pl';
+
 true;
